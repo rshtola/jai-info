@@ -19,7 +19,7 @@ The format, derived from inspecting requests made by janitorai, is as follows:
 
 ```
 %%CUSTOMPROMPT%%
-<%%CHARNAME%%'s Persona>%%CHARACTERPERSONA%%<%%CHARNAME%%'s Persona>
+<%%CHARNAME%%'s Persona>%%CHARACTERPERSONA%%</%%CHARNAME%%'s Persona>
 <Scenario>%%SCENARIO%%</Scenario>
 <UserPersona>%%USERPERSONA%%</UserPersona>
 <example_dialogs>%%DIALOGUES%%</example_dialogs>

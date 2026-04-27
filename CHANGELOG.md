@@ -1,2 +1,3 @@
-2026-4-18: Added custom quest selector lorebook and name-blocking lorebook activation trigger.
-2026-4-11: Added basic info and system-prompt info.
+- 2026-4-26: Added custom prompts, fixed a few small typos and formatting issues.
+- 2026-4-18: Added custom quest selector lorebook and name-blocking lorebook activation trigger.
+- 2026-4-11: Added basic info and system-prompt info.

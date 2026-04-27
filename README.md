@@ -8,3 +8,4 @@ This repository currently contains:
 - The [system-prompt](system-prompt/README.md) folder, which discusses the specific behavior of the system prompt on janitorai.
 - The [lorebooks-custom](lorebooks-custom/README.md) folder, which contains custom lorebook scripts.
 - The [lorebooks-activation](lorebooks-activation/README.md) folder, which contains custom lorebook activation triggers.
+- The [custom-prompt](custom-prompt/README.md) folder, which contains custom prompts for use with various proxies.
