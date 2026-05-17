@@ -6,3 +6,9 @@ These are the custom prompts that I use with various models. None of these are c
 - [deepseek-v4-pro.md](deepseek-v4-pro.md) - my modification of that prompt for deepseek v4 pro, adding a section to turn off [in-character thinking](https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README_EN.md)
 - [modified-elise-glm.md](modified-elise-glm.md) - a modified version of Elise's GLM prompt. Modifications exist primarily to tailor it to my preferred style of writing and pacing.
 
+# Reminder prompts
+
+Some recent models, such as DS v4, GLM 5.x, and Kimi K2.x, respond better to recent reminders than they do to the system prompt. Accordingly, I've begun adding part of my custom prompt as a reminder to the *end* of the chat history, instead of having it all in the system prompt (at the beginning). 
+
+- [modified-elise-gcot.md](modified-elise-gcot.md) - A modified version of Elise's Guided Chain-of-thought prompt. The primary modifications here are a slight tweak to the NPC instructions (I like my LLM to be a bit more willing to play as NPCs than Elise does), and the additions at the end which use [Sophia's Lorebrary](https://lorebary.com/) to automate the injection (since jai doesn't support it natively).
+- [modified-elise-gcot-reminder-prompt.md](modified-elise-gcot-reminder-prompt.md) - If you're on a platform that supports it (like SillyTavern, for example), instead of relying on the lorebrary you can just use this reminder prompt, injected at the end of chat history. If you do this, remove the Lorebrary instructions (`<SHOWTHINKING><PLUGIN=DAZQMK57>`) from the end of modified-elise-gcot.md, if using it as system prompt.
