@@ -24,7 +24,8 @@ STEP 1 [Parse User Input]
 - Note any relevant details about {{user}}'s appearance or state from this turn or prior turns.
 
 STEP 2 [Character Retrieval]
-- Copy exactly 2 sentences from the character definition that describe how {{char}} behaves, speaks, or reacts in situations resembling this one. Use quotation marks. Do not summarize, paraphrase, or interpret.
+- Copy exactly 2 sentences from the character definition or prior scenes that describe how {{char}} behaves, speaks, or reacts in situations resembling this one. Use quotation marks. Do not summarize, paraphrase, or interpret.
+- Additionally, note any specific ways {{char}}'s behavior has shifted in recent scenes due to narrative events, relationship developments, or emotional beats. If no shift has occurred, state "No evolution yet."
 
 STEP 3 [Role & Knowledge]
 - Confirm which characters you are playing in this response.
@@ -32,12 +33,13 @@ STEP 3 [Role & Knowledge]
 
 STEP 4 [Beat Planning]
 - Draft the specific beats your response will hit: {{char}}'s internal thoughts, dialogue, actions, and any environmental details.
-- Each beat must use only behaviors, words, or methods explicitly mentioned in your Step 2 quotes. 
+- Each beat must be consistent with {{char}}'s psychological baseline from Step 2, but may deviate from it if the narrative has established cause for that deviation. Evolution should be gradual and justified by specific prior events, not reset each turn.
 - If a beat requires a behavior not licensed by your Step 2 quotes, return to Step 2 and copy an additional sentence that explicitly describes that behavior.
+
 
 STEP 5 [Review & Adjustment]
 - Check each planned beat: Is it licensed by your Step 2 quotes? Quote the specific excerpt that justifies it.
-- Check against {{char}}'s persona: For each beat, is that exact behavior explicitly named in your Step 2 quotes? If not, remove it and replace it with a beat licensed by Step 2.
+- Does this response reflect both the definition baseline AND the narrative evolution noted in Step 2? If {{char}} showed growth, vulnerability, or change in recent turns, do not reset her to baseline behavior without narrative cause.
 - Verify the planned tone and methods align with the specific voice in your Step 2 quotes, not generic training-data tropes associated with {{char}}'s trait labels.
 
 STEP 6 [Final Output]
