@@ -2,8 +2,9 @@
 
 These are the custom prompts that I use with various models. None of these are completely originally mine, but all have been modified. I owe a lot to [Elise's work](https://elises-aps.gitbook.io/elises-aps-docs). My prompts are provided here solely for your reference.
 
+- [glm-5-at.md](glm-5-at.md) - A modified version of Elise's GLM prompt, fine-tuned for GLM 5, with a focus on character adherence even in the case of dark, violent, possessive, or controlling characters.
 - [kimi-k2-gcot.md](kimi-k2-gcot.md) - A modified version of Elise's Guided Chain-of-thought prompt, fine-tuned for Kimi K2.5. Significantly reworks the guided chain-of-thought to enhance adherence to the character definition, while also allowing the character to grow and change throughout the story. The definition adherence in this prompt is quite strong, so you may need to be more aggressive in your prompting to get character evolution than with other models.
-- [modified-elise-glm.md](modified-elise-glm.md) - a modified version of Elise's GLM 4.7 prompt. Modifications exist primarily to tailor it to my preferred style of writing and pacing.
+- [glm-4-7-at.md](glm-4-7-at.md) - a modified version of Elise's GLM 4.7 prompt. Modifications exist primarily to tailor it to my preferred style of writing and pacing.
 - [deepseek-v4-pro.md](deepseek-v4-pro.md) - my modification of that prompt for deepseek v4 pro, adding a section to turn off [in-character thinking](https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README_EN.md)
 - [deepseek-v3.md](deepseek-v3.md) - my deepseek v3 prompt, focusing on encouraging it to maintain consistency with character definitions, while remaining low-token.
 
