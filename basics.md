@@ -41,4 +41,8 @@ There are a couple things to note here:
 - LLMs have a limited context window, and in text-based roleplaying it's not uncommon for the conversation to go significantly longer than the context window in use. In most platforms, only the most recent chunk of the conversation (that fits within the defined context limit) is included, causing the LLM to de-facto "forget" earlier messages. This is a bad experience for the end user, and different platforms have different ways of dealing with it, to varying degrees of sophistication. On janitorai, this is the ostensible purpose of the "chat summary" feature, which must be manually created and updated by the user. Other platforms have more automated ways of doing this, to varying degrees of success.
 - Nothing stops a requester from lying about who is what role, or otherwise doing things strangely. Generally though, LLMs will expect one `system` message at the beginning, then alternating `user` and `assistant` messages, beginning with `user`. Presumably for this reason, when you start a new chat on janitorai, it actually sends a `user`-role message of `.` (just a single dot), followed by an `assistant`-role message with the introduction.
 
+## Rerolling
 
+I've noticed some persistent myths spread about the "rerolling" or "swipe" function on jai (whereby you can generate a new response to the same message, and then choose between which two responses you prefer). I've seen a lot of people saying that rerolls send the old response *along with* the instruction to generate a new one. My testing shows that this is not true—a reroll request is *identical* to the request that generated the original message.
+
+What this means is that there's no need to prefer a delete/re-send workflow over just rerolling.
