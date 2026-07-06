@@ -1,3 +1,4 @@
+- 2026-7-6: Added random-namer.js
 - 2026-6-14: Added notes on rerolling to basics.md
 - 2026-5-17: Added modified-elise-gcot.md, and instructions for end-of-history injection to custom-prompts.
 - 2026-4-28: Added stable-substitutions.js, a script to enable stable macro substitutions in multi-persona chats.
