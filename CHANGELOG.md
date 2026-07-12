@@ -1,3 +1,4 @@
+- 2026-7-11: Updated system prompt format doc to account for the global prompt field.
 - 2026-7-6: Added random-namer.js
 - 2026-6-14: Added notes on rerolling to basics.md
 - 2026-5-17: Added modified-elise-gcot.md, and instructions for end-of-history injection to custom-prompts.

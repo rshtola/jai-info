@@ -18,6 +18,8 @@ The order of things is relevant because of something that I call the "lost middl
 The format, derived from inspecting requests made by janitorai, is as follows:
 
 ```
+%%GLOBALPROMPT%%
+
 %%CUSTOMPROMPT%%
 <%%CHARNAME%%'s Persona>%%CHARACTERPERSONA%%</%%CHARNAME%%'s Persona>
 <Scenario>%%SCENARIO%%</Scenario>
