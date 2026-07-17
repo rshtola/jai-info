@@ -1,3 +1,4 @@
+- 2026-7-17: Added a section to the system-prompt folder on the forbidden words/phrases configuration.
 - 2026-7-11: Updated system prompt format doc to account for the global prompt field.
 - 2026-7-6: Added random-namer.js
 - 2026-6-14: Added notes on rerolling to basics.md
