@@ -14,3 +14,4 @@ This repository currently contains:
 Not in this repo but also useful:
 
 - [Lorebook Converter](https://rshtola.neocities.org/lorebookconverter) - a (pretty jank) lorebook converter to convert lorebook json between janitor format and sillytavern format. Useful for testing, not lossless, use with care.
+- [sp-info](https://github.com/rshtola/sp-info) - a parallel repository documenting similar behavior on saucepan.ai.
